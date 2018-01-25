@@ -84,7 +84,7 @@ $(window).on("load",function() {
       if(top_of_object < bottom_of_window){
 
         if ($(this).css("opacity")==0) {
-          $(this).fadeTo(600,1);
+          $(this).fadeTo(650,1);
         }
       } else {
         // if ($(this).css("opacity")==1) {

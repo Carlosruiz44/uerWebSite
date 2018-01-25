@@ -125,12 +125,14 @@ textarea {
     position: fixed;
     background-color: green;
     top: 0;
-    left: 0;
+    
     z-index: 9999;
-    width: 100%;
+    width: 120%;
     height: 50px;
+    left: -40;
 
 }
+
 
 /* navlogo is for modifying the image that lives in
 the nav bar */
@@ -158,12 +160,13 @@ the nav bar */
     z-index: 1;  
 }*/
 
-ul {
+.mainNav {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
     background-color: green;
+    left: 0;
     /*display: inline-flex;*/
     /*position: fixed;*/
     /*justify-content: center;*/
@@ -173,6 +176,7 @@ li {
     /*float: right;*/
     display: table-cell;
 
+
 }
 
 
@@ -181,7 +185,7 @@ li a, .dropbtn, li a:visited, li a:focus {
     display: block;
     color: white;
     text-align: center;
-    padding: 15px 16px;
+    padding: 15px 10px;
     font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
     text-decoration: none;
@@ -244,6 +248,9 @@ li.current a {
     padding-top: 35px;
     min-height: 150px;
 }
+
+
+
 /*
 
 #menu-btn {
@@ -257,6 +264,17 @@ li.current a {
     font-size: 16px;
 }
 */
+
+/*.billofrights {
+    text-align: left;
+    padding-left: 13px;
+}*/
+
+#spanish-sec {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
 
 .material-icons {
   font-family: 'Material Icons';
@@ -337,6 +355,7 @@ h4 {
     font-family: 'Noto Sans', sans-serif;
     font-style: bold;
     text-shadow: 0px 0px 0px #000000;
+    padding-left: 30px;
 
     
 
@@ -344,13 +363,64 @@ h4 {
 
 
 
+
+
 p {
     font-family: 'Noto Sans', sans-serif;
-    padding-left: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
     font-weight: 400;
     font-size: 16px;
     /*text-align: center;
     position: relative;*/
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+
+
+.btn-container {
+    text-align: center;
+ /*   padding-bottom: 0px;*/
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid green;
+}
+
+.button1:hover {
+    background-color: green;
+    color: orange;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid green;
+}
+
+.button2:hover {
+    background-color: green;
+    color: orange;
 }
 
 button:focus {
@@ -394,7 +464,11 @@ section {
 }
 
 .billheader {
-    min-height: 100px;
+    min-height: 2   0px;
+    font-style: bold;
+    
+    text-shadow: 1px 0px #000000;
+    font-weight: bold:
 }
 
 .fixedbody {
@@ -454,37 +528,51 @@ section {
 
 
 @media (max-width: 768px) {
+
+        
+    #navbar {
+        position: fixed;
+        background-color: green;
+        top: 0;
+        
+        z-index: 9999;
+        width: 120%;
+        height: 40px;
+        left: -40;
+
+}
+
     nav li {
         display: block;
         text-align: center;
     }
 
-    
-
-
-
     .fadesection {
         opacity: 1;
     }
 
+
+
     h1 {
         text-align: center;
-        padding-bottom: 2px;
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: 1px;
+        padding-bottom: -10px;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 2px;
         line-height: 10px;
         position: relative;
         /*display: inline-block;*/    
         margin-top: 20px;
         margin-bottom: 0;
-        text-shadow: 1px 2px 2px #000000;
+        text-shadow: 2px 1px 1px #000000;
         font-family: 'Noto Sans', sans-serif;
-        font-size: 40px;
+        font-size: 42px;
         color: #f69000;
         font-weight: 400;
-        /*line-height: 25px;*/
+        line-height: 36px;
     }
+
+
 
     .team-member, .profile-pic, 
     img.small, img.align-left {
@@ -507,14 +595,26 @@ section {
 
     }
 
+    h4 {
+        padding-left: 5px;
+    }
+
     p {
         font-family: 'Noto Sans', sans-serif;
-        padding-left: 10px;
+        padding-left: 5px;
+        padding-right: 0px;
         font-weight: 400;
         font-size: 16px;
         /*text-align: center;
         position: relative;*/
     }
+    /*
+        #mass-header {
+            display: inline-block;
+            font size: 2px;
+            text-align: center;
+            line-height: 25px;
+        }*/
 
 
 
@@ -529,17 +629,19 @@ section {
 
     .material-icons {
         display: block;
+        float: none;
         position: fixed;
         top: 0;
         left: 0;
         text-decoration: none;
-        color: orange;
+        color: white;
     }
 
 
 
         #mainNav {
             display: none;
+            background-color: green;
         }
       
         .col-4 {
