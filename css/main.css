@@ -270,6 +270,10 @@ li.current a {
     padding-bottom: 10px;
 }
 
+.footer {
+    position: inline-block;
+}
+
 
 /*
 

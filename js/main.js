@@ -87,6 +87,14 @@ $('#mainNav li a').click(function(){
   }
 });
 
+// Footer Year updater
+
+var today = new Date();
+var year = today.getFullYear();
+
+var el = document.getElementbyClass('#footer');
+el.innerHTML = '<p>Copyright &copy' + year + 'Utility Expense Reduction, All Rights Reserved </p>';
+
 
 // Parallax Effect
 
