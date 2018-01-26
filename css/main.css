@@ -249,6 +249,26 @@ li.current a {
     min-height: 150px;
 }
 
+.fb-icon {
+    position: inline-block;
+    width: 40px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.linked-icon {
+    position: inline-block;
+    width: 40px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.email-icon {
+    position: inline-block;
+    width: 50px;
+    height: 62px;
+    padding-bottom: 10px;
+}
 
 
 /*
@@ -308,8 +328,10 @@ li.current a {
     opacity: 0;
 }
 
-.team-member, .profile-pic, 
-img.small, img.align-left {
+.team-member, 
+.profile-pic, 
+img.small, 
+img.align-left {
 
     float: left;
     width: 50px;
