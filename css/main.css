@@ -665,14 +665,41 @@ section {
 
 
 
-        #mainNav {
+    #mainNav {
             display: none;
             background-color: green;
         }
       
-        .col-4 {
+    .col-4 {
             width: 33.33%;
         }
+
+        .parallax-window {
+            min-height: 250px;
+            background: transparent;
+        }
+
+        .parallax-window2 {
+            min-height: 250px;
+            background: transparent;
+        }
+
+        .parallax-window3 {
+            min-height: 250px;
+            background: transparent;
+        }
+
+        .parallax-window4 {
+            min-height: 250px;
+            background: transparent;
+        }
+
+        .parallax-window5 {
+            min-height: 250px;
+            background: transparent;
+        }
+
+
     }
 
 
