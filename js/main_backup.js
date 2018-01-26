@@ -1,4 +1,6 @@
-
+// $('.bg-holder').parallaxScroll({
+//   friction: 0.15
+// });
 
 var lastId,
  topMenu = $("#mainNav"),
@@ -12,14 +14,52 @@ var lastId,
  });
 
 
-// Mobile Menu Slide
+
 
 $('.material-icons').click(function(){
   const listItems = $('#mainNav').slideToggle();
 });
 
+// Bind click handler to menu items
+// so we can get a fancy scroll animation, (has that weird nudge on top)
+// menuItems.click(function(e){
+//   var href = $(this).attr("href"),
+//       offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+//   $('html, body').stop().animate({ 
+//       scrollTop: offsetTop
+//   }, 850);
+//   e.preventDefault();
+// });
 
-// Logo Fade in
+// // Bind to scroll
+// $(window).scroll(function(){
+//    // Get container scroll position
+//    var fromTop = $(this).scrollTop()+topMenuHeight;
+   
+//    // Get id of current scroll item
+//    var cur = scrollItems.map(function(){
+//      if ($(this).offset().top < fromTop)
+//        return this;
+//    });
+//    // Get the id of the current element
+//    cur = cur[cur.length-1];
+//    var id = cur && cur.length ? cur[0].id : "";
+   
+//    if (lastId !== id) {
+//        lastId = id;
+//        // Set/remove active class
+//        menuItems
+//          .parent().removeClass("active")
+//          .end().filter("[href=#"+id+"]").parent().addClass("active");
+//    }                   
+// });
+
+
+
+
+
+
+
 
 $('.logocontainer').hide().fadeIn(600,0);
 
@@ -58,7 +98,35 @@ $(window).on("load",function() {
 });
 
 
-// Smooth slide toggle
+// Fade in Script -  Still not working
+
+// $(document).ready(function(){
+
+//   $(window).scroll( function(){ 
+
+//     $('.fadesection').each(function(){
+
+//       var bottom_of_object = $(this).offset().top +
+//       $(this).outerHeight();
+//       var bottom_of_window = $(window).scrollTop() +
+//       $(window).height();
+
+//       if( bottom_of_window < bottom_of_object){
+//         $(this).animate({'opacity':'1'},350);
+//       }
+//     })
+
+//   })
+
+// });
+
+
+// const 
+
+// $('.material-icons').click(function(){
+
+// });
+
 
 $('nav').onePageNav();
 
@@ -78,15 +146,6 @@ $(window).resize(function(){
 });
 
 
-// Resets Menu on click
-
-$('#mainNav li a').click(function(){
-  $('#mainNav').slideUp();
-
-});
-
-
-// Parallax Effect
 
 $('.parallax-window').parallax({imageSrc: 'img/electric_lo.jpg'});
 
