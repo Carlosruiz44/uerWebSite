@@ -81,8 +81,10 @@ $(window).resize(function(){
 // Resets Menu on click
 
 $('#mainNav li a').click(function(){
-  $('#mainNav').slideUp();
-
+  const width = $(window).width();
+  if(width <= 768){
+    $('#mainNav').slideUp();
+  }
 });
 
 
