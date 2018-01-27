@@ -442,7 +442,9 @@ b, strong {
     background-color: white; 
     color: black; 
     border: 2px solid green;
-    padding-right: 49px;
+    padding-right: 41px;
+    padding-left: 41px;
+
 }
 
 .button2:hover {
@@ -669,7 +671,8 @@ section {
         background-color: white; 
         color: black; 
         border: 2px solid green;
-        padding-right: 49px;
+        padding-right: 41px;
+        padding-left: 41px;
 
     }
 
@@ -684,27 +687,27 @@ section {
         }
 
         .parallax-window {
-            min-height: 200px;
+            min-height: 250px;
             background: transparent;
         }
 
         .parallax-window2 {
-            min-height: 200px;
+            min-height: 250px;
             background: transparent;
         }
 
         .parallax-window3 {
-            min-height: 200px;
+            min-height: 250px;
             background: transparent;
         }
 
         .parallax-window4 {
-            min-height: 200px;
+            min-height: 250px;
             background: transparent;
         }
 
         .parallax-window5 {
-            min-height: 200px;
+            min-height: 250px;
             background: transparent;
         }
 
