@@ -667,6 +667,12 @@ section {
         color: white;
     }
 
+
+    #mainNav {
+        display: none;
+        background-color: green;
+        }
+
     .button2 {
         background-color: white; 
         color: black; 
@@ -676,11 +682,6 @@ section {
 
     }
 
-
-    #mainNav {
-            display: none;
-            background-color: green;
-        }
       
     .col-4 {
             width: 33.33%;
