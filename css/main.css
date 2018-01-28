@@ -123,9 +123,8 @@ textarea {
 
 #navbar {
     position: fixed;
-    background-color: green;
-    top: 0;
-    
+    background-color: #05731c;
+    top: 0;    
     z-index: 9999;
     width: 120%;
     height: 50px;
@@ -165,7 +164,7 @@ the nav bar */
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    background-color: green;
+    background-color: #05731c;
     left: 0;
     /*display: inline-flex;*/
     /*position: fixed;*/
@@ -194,7 +193,7 @@ li a, .dropbtn, li a:visited, li a:focus {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: green;
+    background-color: #05731c;
     color: orange;
     font-weight: bold;
     font-size: 14px;
@@ -370,7 +369,7 @@ h1 {
 }
 
 h3 {
-    color: green;
+    color: #05731c;
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 1px 1px 1px #000000;
 
@@ -429,25 +428,25 @@ b, strong {
 .button1 {
     background-color: white; 
     color: black; 
-    border: 2px solid green;
+    border: 2px solid #05731c;
 }
 
 .button1:hover {
-    background-color: green;
+    background-color: #05731c;
     color: orange;
 }
 
 .button2 {
     background-color: white; 
     color: black; 
-    border: 2px solid green;
+    border: 2px solid #05731c;
     padding-right: 41.5px;
     padding-left: 41.5px;
 
 }
 
 .button2:hover {
-    background-color: green;
+    background-color: #05731c;
     color: orange;
 }
 
@@ -561,7 +560,7 @@ section {
         
     #navbar {
         position: fixed;
-        background-color: green;
+        background-color: #05731c;
         top: 0;        
         z-index: 9999;
         width: 100%;
@@ -618,7 +617,7 @@ section {
     }
 
     h3 {
-        color: green;
+        color: #05731c;
         font-family: 'Noto Sans', sans-serif;
         text-shadow: 0px 1px 2px #000000;
 
@@ -669,13 +668,13 @@ section {
 
     #mainNav {
         display: none;
-        background-color: green;
+        background-color: #05731c;
         }
 
     .button2 {
         background-color: white; 
         color: black; 
-        border: 2px solid green;
+        border: 2px solid #05731c;
         padding-right: 41.5px;
         padding-left: 41.5px;
 
