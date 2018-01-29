@@ -680,6 +680,16 @@ section {
 
     }
 
+    .button1:active {
+    background-color: #05731c;
+    color: orange;
+}
+
+    .button2:active {
+    background-color: #05731c;
+    color: orange;
+}
+
       
     .col-4 {
             width: 33.33%;
