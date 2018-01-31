@@ -1,4 +1,4 @@
-//Section Scroll
+// Section Scroll
 
 var lastId,
  topMenu = $("#mainNav"),
@@ -16,6 +16,10 @@ var lastId,
 
 $('.material-icons').click(function(){
   const listItems = $('#mainNav').slideToggle();
+});
+
+$('#market').click(function(){
+  const subList = $('#subMenu').slideToggle();
 });
 
 
