@@ -107,10 +107,6 @@ textarea {
    ========================================================================== */
 
 
-
-
-
-
 .top_portion {
     position: relative;
     top: 0;
@@ -378,7 +374,7 @@ h3 {
 h4 {
     color: #000000;
     font-family: 'Noto Sans', sans-serif;
-    font-style: bold;
+    /*font-style: bold;*/
     font-weight: bold;
     text-shadow: 0px 0px 0px #000000;
     padding-left: 30px;
@@ -625,6 +621,16 @@ section {
 
     h4 {
         padding-left: 5px;
+    }
+
+    h4 {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    /*font-style: bold;*/
+    font-weight: bold;
+    text-shadow: 0px 0px 0px #000000;
+    padding-left: 5px;
+
     }
 
     p {
